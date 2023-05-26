@@ -1,0 +1,340 @@
+/* /////////chekcout.js///////////// */
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1vh;
+  height: 65vh;
+}
+.checkoutLeft {
+  height: 52vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.checkoutRight {
+  height: 52vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.planSelectCard {
+  height: 50%;
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 3vh;
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.checkoutAddr {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkoutAddr > div {
+  height: 40%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkoutAddr > div:hover {
+  border: 2px solid white;
+}
+.checkoutAddr > div > h3 {
+  margin-top: 2.5%;
+}
+
+.checkoutPricingCard {
+  height: 75%;
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.checkoutPayment {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.checkoutPayment > div {
+  height: 95%;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkoutPayment > div > h3 {
+  margin-top: 2%;
+}
+
+.checkoutPayment > div:hover {
+  border: 2px solid white;
+}
+
+.checkoutPricingCard > div {
+  height: 16%;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.checkoutPricingCard > div > h3 {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 4%;
+}
+/* .planDropDown {
+  height: 30%;
+  width: 90%;
+  background-color: rgba(81, 153, 56, 0.69);
+  border-radius: 3vh;
+  display: flex;
+  color: white;
+  font-size: 3vh;
+  font-weight: bolder;
+  text-align-last: center;
+} */
+
+/* .planDropDown > option {
+  margin-left: 5%;
+}
+
+.daysDropDown {
+  height: 30%;
+  width: 50%;
+
+  border-radius: 3vh;
+  display: flex;
+  color: white;
+  font-size: 3vh;
+  font-weight: bolder;
+  text-align-last: center;
+  margin-right: 38%;
+  background-color: rgba(0, 0, 0, 0.65);
+} */
+
+/* //////////////////// CheckoutAddr.js //////////////////*/
+
+.checkoutAddrLeft {
+  height: 55vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.checkoutChooseAddress {
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.checkoutChooseAddress > h3 {
+  margin-top: 1.5%;
+}
+
+.checkoutAddrRight {
+  height: 55vh;
+  width: 30vw;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkoutAddressCard {
+  height: 75%;
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 2vh;
+  border: 1px solid orange;
+  overflow-y: scroll;
+}
+
+.checkoutAddressCard > div {
+  height: 30%;
+  width: 95%;
+  background-color: white;
+  border-radius: 3vh;
+  margin-left: 2.5%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.checkoutAddressCard > div > input {
+  margin-left: 3%;
+}
+.checkoutAddressCard > div > label {
+  margin-left: 2%;
+}
+
+.checkoutAddAddressCard {
+  height: 60%;
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 3vh;
+  border: 2px solid rgba(0, 0, 0, 0.65);
+  /* rgba(0, 0, 0, 0.65) */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.checkoutAddAddressCard > div {
+  height: 17%;
+  width: 92%;
+  /* background-color: aqua; */
+}
+
+.checkoutAddBtn {
+  height: 15%;
+  width: 70%;
+  background-color: rgba(255, 165, 0, 0.9);
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkoutAddBtn:hover {
+  border: 2px solid white;
+}
+.checkoutAddBtn > h3 {
+  margin-top: 2%;
+}
+
+.checkoutContinue {
+  height: 15%;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkoutContinue:hover {
+  border: 2px solid white;
+}
+
+.checkoutContinue > h3 {
+  margin-top: 2%;
+}
+
+.checkoutAddAddressCardLine1 {
+  display: flex;
+  justify-content: space-between;
+}
+.checkoutAddAddressCardLine1 > div {
+  height: 100%;
+  width: 30%;
+  /* background-color: rgba(0, 0, 0, 0.65); */
+  background-color: black;
+  border-radius: 1vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkoutAddAddressCardLine1 > div > p {
+  margin-top: 10%;
+}
+.checkoutAddAddressCardLine1 > input {
+  border-radius: 2vh;
+  width: 65%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.checkoutAddAddressCardLine1 > input::placeholder {
+  font-weight: bolder;
+  /* margin-right: 70%; */
+}
+
+.checkoutAddAddressCardLine2 > input {
+  border-radius: 2vh;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.checkoutAddAddressCardLine2 > input::placeholder {
+  font-weight: bolder;
+  /* padding-left: 5%; */
+}
+
+.checkoutAddAddressCardLine3 > input {
+  border-radius: 2vh;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.checkoutAddAddressCardLine3 > input::placeholder {
+  font-weight: bolder;
+  /* padding-left: 5%; */
+}
+
+.checkoutAddAddressCardLine4 > input {
+  border-radius: 2vh;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.checkoutAddAddressCardLine4 > input::placeholder {
+  font-weight: bolder;
+  /* padding-left: 5%; */
+}
+.checkoutAddAddressCardLine5 {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+.checkoutAddAddressCardLine5 > input {
+  border-radius: 2vh;
+  width: 48%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.checkoutAddAddressCardLine5 > input::placeholder {
+  font-weight: bolder;
+  /* padding-left: 5%; */
+}
